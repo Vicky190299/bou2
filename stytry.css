@@ -1,0 +1,76 @@
+body{
+	font-family: 'Century Gothic', Calibri, serif;
+	font-size: 13px;
+	margin : 0px;
+	padding: 0px;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+}
+
+header{
+	height: 100px;
+}
+
+footer{
+	height: 80px;
+	padding-top: 30px;
+	text-align: center;
+	background-color: #C5C5C5;
+	border-top : 2px solid #AAA;
+}
+
+/*éléments en ligne*/
+nav li{
+	list-style-type: none;
+	float : left;
+}
+
+/*marges*/
+nav ul{
+	margin:0px;
+	padding: 0px;
+}
+
+/*zone élargie et coule de fond*/
+nav{
+	vidth : 100%;
+	background-color: #424558;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none; /*enlever le trait de soulignement*/
+	padding : 20px 30px;
+	color :#FFF;
+	text-transform: uppercase;
+	font-size : 15px;
+}
+
+.table{
+	display :table;
+	margin : 0 auto;
+}
+
+.menu_index:hover{
+	border-top: 10px solid #4c8;
+	background-color: RGBa(64, 200, 130 0.15);
+}
+s
+.menu_savoir:hover{
+	border-top: 10px solid #4c8;
+	background-color: RGBa(64, 200, 130 0.15);
+}
+
+
+.menu_contact:hover{
+	border-top: 10px solid #4c8;
+	background-color: RGBa(64, 200, 130 0.15);
+}
+
+nav li:hover a{
+	padding : 15px 30px 20px 30px;
+}
